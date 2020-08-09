@@ -1,6 +1,6 @@
 # SpotifyYoutube
 Create Spotify playlists from Youtube playlists.   
-Retrieves the Youtube playlist titled "spotify" to create a Spotify playlist.
+Retrieves the Youtube playlist titled "Spotify" to create a Spotify playlist.
 
 ## Setup:
 1) Install All Dependencies   
@@ -18,7 +18,7 @@ Retrieves the Youtube playlist titled "spotify" to create a Spotify playlist.
 4) Run the application
 `python3 create_playlist.py`   
    * Navigate to the URL when asked to authorize the application. 
-   * Log in to your Youtube account that contains the playlist titled 'spotify'
+   * Log in to your Youtube account that contains the playlist titled 'Spotify'
    * Spotify will attempt to add all songs to the playlist, but there is no guarantee that all songs will be added
 
 [Account Overview]: <https://www.spotify.com/us/account/overview/>
