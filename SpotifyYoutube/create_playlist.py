@@ -52,7 +52,8 @@ class CreatePlaylist:
         response = request.execute()
 
         for item in response["items"]:
-            if item["snippet"]["title"] == "spotify":
+            playlist_title = item["snippet"]["title"]
+            if playlist_title.lower() == "spotify":
                 playlist_id = item["id"]
 
         return playlist_id
